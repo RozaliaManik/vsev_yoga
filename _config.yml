@@ -3,7 +3,7 @@ remote_theme: epidrome/cover-card@main
 
 # Title and tag line
 title: 'Розалия Маник (Духовное имя - Йога Шакти)'
-description: 'Веду к здоровью через Йогу, помогаю найти методы для получения денег "по-женски", готовлю женщин к родам через Йогу для беременных'
+description: 'Веду к здоровью через Йогу, помогаю найти методы для получения денег "по-женски", готовлю женщин к родам через Йогу для беременных. Записаться можно по ссылкам ниже'
 
 # Images
 avatar: 'avatar.jpg'
@@ -12,13 +12,13 @@ favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
+#facebook: 'myfacebook'
+#twitter: 'mytwitter'
 #linkedin: 'mylinkedin'
-instagram: 'myinsta'
+instagram: 'manik_rozalia'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
+#youtube: 'myyoutube'
+#github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -28,14 +28,17 @@ github-user: 'mygithub'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+vk: 'rozaliakiss'
+telegram: 'Rozalia_Manik'
+whatsapp: '79818316521'
+#blog_url: 'myblog.blog.com'
+#email: 'hello@example.com'
+#messenger: 'myfbchat'
+phone: '+79818316521'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [instagram, telegram, vk, whatsapp, phone]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -154,3 +157,11 @@ social-links:
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
+    
+  - name: whatsapp
+    url-pattern: wa.me/__USERNAME__
+
+  - name: phone
+    url-scheme: 'tel:'
+    url-pattern: '__USERNAME__'
+    icon-class: far fa-2x fa-phone
